@@ -52,11 +52,11 @@ class MainActivity : AppCompatActivity(), opensDetails {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.settings -> {
-                showAlertDialog()
+                Toast.makeText(this,"Settings option",Toast.LENGTH_SHORT).show()
                 true
             }
             R.id.help -> {
-                Toast.makeText(this@MainActivity, "Help me please!", Toast.LENGTH_SHORT).show()
+                showAlertDialog()
                 true
             }
             else -> super.onOptionsItemSelected(item)
