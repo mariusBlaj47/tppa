@@ -15,13 +15,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ListView
-        android:id="@+id/sensorList"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <TextView
         android:layout_marginTop="10dp"
+        android:id="@+id/gyroscopeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyroscope : "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/locationTv" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/accelerometerTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyroscope : "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gyroscopeTv" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/presionTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyroscope : "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/accelerometerTv" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
